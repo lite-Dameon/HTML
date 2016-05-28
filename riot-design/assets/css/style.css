@@ -1,0 +1,153 @@
+#my-slider {
+  margin-top: -150px;
+  top: 0px;
+}
+
+#navbar-custom {
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+  background-color: transparent;
+  border: 0px;
+  padding-top: 80px;
+  font-size: 17px;
+  font-padding: 30px;
+}
+
+.navbar {
+  position: absolute;
+}
+
+#nav-item a:hover, #nav-item a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.logo {
+  width: 255px;
+  background-image: url("/assets/images/20052016183228rd-logo-bianco.png");
+  background-size: 222px 47px;
+  background-repeat: no-repeat;
+}
+
+ol.carousel-indicators {
+  margin-bottom: 8%;
+}
+
+ol.carousel-indicators li {
+  margin: 0px 10px 0px 10px;
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 1px;
+  background-color: white;
+  margin: 0px 10px 0px 10px;
+}
+
+.carousel-caption {
+  bottom: 20%;
+  left: -40%;
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  text-align: left;
+}
+
+.slide-caption .carousel-heading {
+  text-align: left;
+  left: 0px;
+}
+
+.slide-caption .carousel-heading strong {
+  font-size: 15px;
+}
+
+.slide-caption .carousel-heading span {
+  color: grey;
+}
+
+.slide-caption .carousel-body {
+  font-size: 50px;
+}
+
+.section {
+  position: relative;
+  padding-top: 80px;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  color: #323c46;
+  background-color: #EEEEF2;
+}
+
+.carousel-caption .btn {
+  color: white;
+  padding: 5px 15px 5px 15px;
+  font-size: 20px;
+  border-radius: 0px;
+  border: 2px solid white;
+}
+
+.row .media {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.row .media .media-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.row .media .media-body {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.row .media .media-body .media-heading {
+  font-size: 25px;
+}
+
+.row .media .media-body p {
+  font-size: 20px;
+  height: 100%;
+  overflow: auto;
+}
+
+.footer {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.footer p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.footer hr {
+  border-top: solid 1px #b7bbbd;
+}
+
+.footer img {
+  width: 200px;
+  height: 200px;
+}
+
+.footer .row .p {
+  font-size: 20px;
+}

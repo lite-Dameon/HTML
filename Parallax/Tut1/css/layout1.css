@@ -1,0 +1,228 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #ccc;
+  weight: 300;
+}
+
+.content article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.bird-box {
+  height: 600px;
+  position: relative;
+  background-image: url(/images/bird-bg.jpg);
+  background-position: center top;
+  background-size: auto 600px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+  background-image: url(/images/black-bird-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.fore-bird {
+  width: 960px;
+  height: 773px;
+  background-image: url(/images/fore-bird.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 350px;
+}
+
+.back-bird {
+  height: 298px;
+  width: 960px;
+  background-image: url(/images/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+}
+
+.cloth-pics .row .col-md-4.col-xs-4 {
+  padding-left: 0px;
+}
+
+.cloth-pics figure {
+  margin-bottom: 15px;
+  position: relative;
+  left: 0%;
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+          transform: translateX(-20px);
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.cloth-pics figure.is-showing {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.cloth-pics figure img {
+  display: block;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.cloth-pics figure:hover img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.cloth-pics figure:hover figcaption {
+  opacity: 1;
+  left: 0%;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.cloth-pics figcaption {
+  position: absolute;
+  bottom: 10px;
+  background: black;
+  color: white;
+  padding: 2px 8px;
+  font-size: 11px;
+  opacity: 0;
+  left: -100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.large-window {
+  height: 640px;
+  background-image: url("/images/model2.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  margin-top: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.large-window .window-tint {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.large-window .window-tint .promo-text {
+  color: white;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.large-window .window-tint .promo-text strong {
+  display: block;
+  font-size: 30px;
+}
+
+.large-window .window-tint .promo-text strong span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.post-section {
+  max-width: 800px;
+  margin: 0px auto 100px;
+}
+
+.row.post-row .col-md-4.col-xs-4 {
+  padding: 20px;
+}
+
+.row.post-row .post {
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.row.post-row .post .btn-default {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row.post-row .post p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row.post-row .post img {
+  position: center;
+}
+
+.row.post-row .post-1 {
+  -webkit-transform: translate(100px, 20px);
+      -ms-transform: translate(100px, 20px);
+          transform: translate(100px, 20px);
+}
+
+.row.post-row .post-2 {
+  z-index: 3;
+}
+
+.row.post-row .post-3 {
+  -webkit-transform: translate(-100px, 20px);
+      -ms-transform: translate(-100px, 20px);
+          transform: translate(-100px, 20px);
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0px;
+}
+
+.footer .footer-stuff {
+  max-width: 640px;
+  margin: 0 auto;
+}

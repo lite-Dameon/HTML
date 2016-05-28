@@ -1,0 +1,157 @@
+doctype html
+head
+  meta(charset="utf-8")
+  title Web Design Empoli
+  meta(name="description", content="")
+  meta(name="author", content="")
+  meta(name="viewport", content="width=device-width, initial-scale=1")
+
+  link(rel="stylesheet" href="assets/css/bootstrap.min.css")
+  link(rel="stylesheet" href="assets/css/style.css")
+  link(rel="icon" href="assets/images/favicon.png")
+body
+    header
+        nav.navbar#navbar-custom.navbar-default
+          .container
+            .navbar-header
+              button(type='button' data-toggle='collapse' data-target='#target-here' aria-expanded = false).navbar-toggle.collapsed
+                span.sr-only Toggle Navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+
+              a.navbar-brand(href="#").logo
+
+            .navbar-right.collapse.navbar-collapse#target-here
+              ul.nav.navbar-nav
+                li#nav-item.active
+                  a(href="#") <b>HOME</b>
+                li#nav-item
+                  a(href="#") <b>ABOUT</b>
+                li#nav-item
+                  a(href="#") <b>PORTFOLIO</b>
+                li#nav-item
+                  a(href="#") <b>BLOG</b>
+                li#nav-item
+                  a(href="#") <b>CONTACTS</b>
+
+    .carousel.slide(data-ride="carousel")#my-slider
+      // indicators dot row
+      ol.carousel-indicators
+        li.active.indi(data-target="#my-slider" data-slide-to='0')
+        li.indi(data-target="#my-slider" data-slide-to='1')
+        li.indi(data-target="#my-slider" data-slide-to='2')
+        li.indi(data-target="#my-slider" data-slide-to='3')
+        li.indi(data-target="#my-slider" data-slide-to='4')
+
+      //wrapper for slides
+      .carousel-inner(role="listbox")
+        .item.active
+          img(src='/assets/images/20052016180511bg-archea.jpg')
+          .carousel-caption
+            .slide-caption
+              .carousel-heading <strong>WEBDESIGN <span> / </span> NEWSLETTER </strong>
+              .carousel-body Archea Associati
+              .btn.detn-default Dettagli
+        .item
+          img(src='/assets/images/20052016180511bg-asf.jpg')
+          .carousel-caption
+            .slide-caption
+              .carousel-heading <strong>WEBDESIGN <span> / </span> NEWSLETTER </strong>
+              .carousel-body Garda Haus
+              .btn.detn-default Dettagli
+        .item
+          img(src='/assets/images/20052016180511bg-bancaagci.jpg')
+          .carousel-caption
+            .slide-caption
+              .carousel-heading <strong>WEBDESIGN <span> / </span> NEWSLETTER </strong>
+              .carousel-body Banca AGCI
+              .btn.detn-default Dettagli
+
+        .item
+          img(src='/assets/images/20052016180511bg-gardahaus.jpg')
+          .carousel-caption
+            .slide-caption
+              .carousel-heading <strong>WEBDESIGN <span> / </span> NEWSLETTER </strong>
+              .carousel-body Antico Setificio Fiorentino
+              .btn.detn-default Dettagli
+        .item
+          img(src='/assets/images/20052016180511bg-moveon.jpg')
+          .carousel-caption
+            .slide-caption
+              .carousel-heading <strong>WEBDESIGN <span> / </span> NEWSLETTER </strong>
+              .carousel-body Move On Firenze
+              .btn.detn-default Dettagli
+      //control for next and prev button
+
+
+  .section
+    h2 Only good design , produced in Empoli (Florence )
+    p Siamo specialisti nella realizzazione di brand identity, design e pubblicità per stampa e web.
+
+    .row
+      .col-xs-12.col-md-4
+        .media
+          .row
+            .media-img.col-md-5
+              img(src='/assets/images/20052016180511links-about.jpg')
+            .media-body
+              .media-heading
+                h4 ABOUT
+              p What is Riot Design, our clients and specialties
+      .col-xs-12.col-md-4
+        .media
+          .row
+            .media-img.col-md-5
+              img(src='/assets/images/20052016180511links-portfolio.jpg')
+            .media-body
+              .media-heading
+                h4 PROTFOLIO
+              p Web Design, app design, print works and photography.
+
+      .col-xs-12.col-md-4
+        .media
+          .row
+            .media-img.col-md-5
+              img(src='/assets/images/20052016180511links-contatti.jpg')
+            .media-body
+              .media-heading
+                h4 CONTACTS
+              p Where to find the Office, contact module and more.
+
+
+
+    .footer
+      .row
+        .col-md-4
+          .company-address
+            .add-head
+            p  Riot Design <small>Web & Graphic Design Agency<small>
+            p Via Jacopo Carrucci, 152 - 50053 Empoli (FI)
+            p +39 0571 711155 - info@riotdesign.eu
+        .col-md-6
+          .company-blog
+            .blog-head
+            p  From the blog<sup>Rd</sup>
+            .brand-heading
+            p
+              a Update to our Branding
+            p
+              It’s already been four years since we opened, so we decided to make some updates to our branding, by rethinking …
+                a Continued
+
+        .col-md-2
+          .company-image
+            img(src="/assets/images/20052016180511che-il-buon-design-regni-sul-web.png")
+      hr
+      .row
+        .col-md-4
+          p Social Sites Icons
+        .col-md-4
+          p English Italino
+        .col-md-4
+          p Privacy Policy - &copy; 2016 Riot Design
+
+    script(src="assets/js/jquery-2.1.3.min.js")
+    script(src="assets/js/functions.js")
+    script(src='assets/js/bootstrap.min.js')

@@ -1,0 +1,70 @@
+html
+  height: 100%
+
+
+body
+  height: 100%
+
+
+
+.game-button
+  width: 50%
+  margin-top: 30px
+  display: block
+  position: relative
+  border-radius: 0px
+  border: 3px solid grey
+  background:
+    color: black
+  color: white
+  font-size: 30px
+
+  &:hover, &:focus
+    color: white
+    background:
+      color: transparentize(black, 0.7)
+
+.game-controls
+  align-items: center
+  align-content: center
+  position: absolute
+  top: 50%
+  margin-left: 12.5%
+  width: 50%
+
+
+.building-background
+  height: 100%
+  width: 100%
+  background:
+    image: url('/assets/images/wallpaper-spidy2.jpg')
+    size: cover
+
+
+.web
+  height: 700px
+  width: 100px
+  margin-left: 73px
+  position: absolute
+  z-index: 3
+  top: 0px
+  background:
+    image: url('/assets/images/web2.png')
+    repeat: repeat-y
+    size: 100px 100px
+
+.baby-spiderman
+  height: 200px
+  width: 200px
+  position: absolute
+  margin-left: 23px
+  z-index: 10
+  top: 0px
+  background:
+    image: url('/assets/images/babyspidy_cleaned.png')
+    size: 200px 200px
+
+
+  &:hover, &:focus
+    transform: translateY(10px)
+    transition: all 0.5s ease-in-out
